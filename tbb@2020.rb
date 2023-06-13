@@ -20,7 +20,7 @@ class TbbAT2020 < Formula
 
   # Original deprecation date: 2020-04-02
   # Temporarily undeprecated from 2022-07-29 to 2022-11-07
-  disable! date: "2023-02-07", because: :unsupported
+   # disable! date: "2023-02-07", because: :unsupported
 
   depends_on "cmake" => :build
   depends_on "swig" => :build
